@@ -3,3 +3,5 @@ out/
 img_align_celeba.zip
 list_attr_celeba.txt
 
+.ipynb_checkpoints/
+
