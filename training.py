@@ -15,7 +15,8 @@ import random
 import time
 import multiprocessing as mp
 import pickle
-from vae_faces.dataset import dataset, batch_size, image_size
+
+from faces_dataset import dataset, batch_size, image_size
 
 # Initialize dataset and dataloader
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
